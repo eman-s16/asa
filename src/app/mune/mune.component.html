@@ -1,0 +1,73 @@
+<div class="container-xxl bg-white p-0">
+    <!-- Navbar & Hero Start -->
+    <div class="container-xxl position-relative p-0">
+        <app-nav></app-nav>
+
+        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+            <div class="container text-center my-5 pt-5 pb-4">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Mune</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item link-yellow"><a routerLink=""
+                                class="text-warning text-decoration-none">Home</a>
+                        </li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Mune</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+       <!-- Menu Start -->
+       <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center text-warning fw-normal">Food Menu</h5>
+                <h1 class="mb-5">Most Popular Items</h1>
+            </div>
+            <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                
+                <div class="tab-content">
+                    <div  class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-6" *ngFor="let resto of collection | slice:0:8">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="./assets/img/{{resto.image}}" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>{{resto.title}}</span>
+                                            <span class="text-warning">${{resto.price}}</span>
+                                        </h5>
+                                        <small class="fst-italic">{{resto.description}}</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-lg-6">
+                                <div class="d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded" src="./assets/img/menu-2.jpg" alt="" style="width: 80px;">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                            <span>Chicken Burger</span>
+                                            <span class="text-primary">$115</span>
+                                        </h5>
+                                        <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    </div>
+                                </div>
+                            </div> -->
+                         
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu End -->
+
+
+
+    <app-footer></app-footer>
+
+
+</div>

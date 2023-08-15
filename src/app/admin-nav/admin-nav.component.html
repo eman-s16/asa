@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0 ">
+    <a href="" class="navbar-brand p-0">
+        <h1 class="text-warning m-0"><img src="./assets/img/logo-y-ai.png" alt="Logo" height="29"
+                class=" align-text-top img-logo">{{title}}</h1>
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="fa fa-bars"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-0 pe-4">
+            <a class="nav-item nav-link active" routerLink="/add-item">Add Item</a>
+            <a class="nav-item nav-link active" routerLink="/list-item">List Item</a>
+            <div *ngIf="currentUser">
+                <span class="nav-item nav-link text-white">Welcome, {{ currentUser.name }}</span>
+            </div>
+        </div>
+        <div *ngIf="currentUser">
+
+            <a class="btn btn-warning py-2 px-4" (click)="logout()">Logout</a>
+        </div>
+
+    </div>
+</nav>

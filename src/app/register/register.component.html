@@ -1,0 +1,66 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5 text-center ">
+                <i class="bi bi-person-circle text-warning person-circle-icon"></i>
+              
+              <h2 class="text-uppercase text-center mb-5 mt-3">Create an account</h2>
+              <form [formGroup]="createUser" (ngSubmit)= "regUser()">
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                      <input type="text" id="Name" class="form-control form-control-lg" formControlName="name" />
+                      <label class="form-label" for="Name">Name</label>
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                      <input type="email" id="email" class="form-control form-control-lg" formControlName="email"/>
+                      <label class="form-label" for="email">Email</label>
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                    <div class="col-md-6 mb-4 pb-2">
+    
+                      <div class="form-outline">
+                        <input type="password" id="Password" class="form-control form-control-lg" formControlName="password" />
+                        <label class="form-label" for="Password">Password</label>
+                      </div>
+    
+                    </div>
+                    <div class="col-md-6 mb-4 pb-2">
+    
+                      <div class="form-outline">
+                        <input type="password" id="Password" class="form-control form-control-lg" formControlName="confirmPassword" />
+                        <label class="form-label" for="Password">Conform Password</label>
+                      </div>
+    
+                    </div>
+                  </div>
+               
+  
+                <div class="mt-2 pt-2">
+                  <input class="btn bg-warning btn-lg px-5 w-100" type="submit" value="Registr" />
+                </div>
+                 <div class="mt-2">
+                  <p>Already have an account? <a class="fw-bold text-success " routerLink="/login">Sign in</a>.</p> 
+                 </div>   
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  

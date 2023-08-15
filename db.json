@@ -1,0 +1,274 @@
+{
+  "resto": [
+    {
+      "id": 1,
+      "title": "Pancakes",
+      "price": 9.99,
+      "description": "Fluffy pancakes served with maple syrup and butter.",
+      "image": "menu-1.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 2,
+      "title": "Eggs Benedict",
+      "price": 11.99,
+      "description": "Poached eggs with ham on English muffin, topped with hollandaise sauce.",
+      "image": "menu-2.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 3,
+      "title": "Avocado Toast",
+      "price": 8.49,
+      "description": "Sliced avocado on toasted whole wheat bread, topped with tomatoes and feta.",
+      "image": "menu-3.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 4,
+      "title": "Caesar Salad",
+      "price": 10.99,
+      "description": "Romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+      "image": "menu-4.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 5,
+      "title": "Grilled Chicken Wrap",
+      "price": 12.99,
+      "description": "Grilled chicken, lettuce, tomatoes, and ranch dressing wrapped in a tortilla.",
+      "image": "menu-5.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 6,
+      "title": "Margherita Pizza",
+      "price": 14.99,
+      "description": "Classic pizza topped with tomatoes, fresh mozzarella, basil, and olive oil.",
+      "image": "menu-6.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 7,
+      "title": "Steak",
+      "price": 24.99,
+      "description": "Grilled sirloin steak with garlic mashed potatoes and sautéed vegetables.",
+      "image": "menu-7.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 8,
+      "title": "Salmon",
+      "price": 19.99,
+      "description": "Pan-seared salmon with lemon butter sauce, served with rice and asparagus.",
+      "image": "menu-8.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 9,
+      "title": "Vegetable Stir-Fry",
+      "price": 15.99,
+      "description": "Assorted vegetables stir-fried in a savory sauce, served over noodles.",
+      "image": "vegetable_stir_fry.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 10,
+      "title": "French Toast",
+      "price": 8.99,
+      "description": "Thick slices of bread soaked in a mixture of eggs and milk, served with syrup.",
+      "image": "french_toast.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 11,
+      "title": "Omelette",
+      "price": 10.49,
+      "description": "Fluffy omelette with choice of fillings: cheese, mushrooms, peppers, and more.",
+      "image": "omelette.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 12,
+      "title": "Greek Salad",
+      "price": 9.99,
+      "description": "Fresh vegetables, olives, feta cheese, and Greek dressing.",
+      "image": "greek_salad.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 13,
+      "title": "Club Sandwich",
+      "price": 11.99,
+      "description": "Triple-decker sandwich with turkey, bacon, lettuce, tomato, and mayo.",
+      "image": "club_sandwich.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 14,
+      "title": "BBQ Burger",
+      "price": 13.99,
+      "description": "Juicy beef patty topped with BBQ sauce, cheddar cheese, and onion rings.",
+      "image": "bbq_burger.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 15,
+      "title": "Grilled Salmon",
+      "price": 21.99,
+      "description": "Grilled salmon fillet served with a dill sauce, mashed potatoes, and green beans.",
+      "image": "grilled_salmon.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 16,
+      "title": "Ribeye Steak",
+      "price": 26.99,
+      "description": "Juicy ribeye steak cooked to perfection, served with loaded baked potato.",
+      "image": "ribeye_steak.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 17,
+      "title": "Lobster Tail",
+      "price": 29.99,
+      "description": "Grilled lobster tail served with drawn butter, garlic noodles, and asparagus.",
+      "image": "lobster_tail.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 18,
+      "title": "Fruit Bowl",
+      "price": 6.99,
+      "description": "Fresh assortment of seasonal fruits.",
+      "image": "fruit_bowl.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 19,
+      "title": "Bacon and Eggs",
+      "price": 8.99,
+      "description": "Crispy bacon strips with sunny-side-up eggs and toast.",
+      "image": "bacon_and_eggs.jpg",
+      "type": "Breakfast"
+    },
+    {
+      "id": 20,
+      "title": "Mediterranean Wrap",
+      "price": 10.99,
+      "description": "Grilled chicken, hummus, veggies, and feta cheese wrapped in a tortilla.",
+      "image": "mediterranean_wrap.jpg",
+      "type": "Lunch"
+    },
+    {
+      "id": 22,
+      "title": "Shrimp Scampi",
+      "price": 18.99,
+      "description": "Tender shrimp sautéed in garlic butter, served over linguine.",
+      "image": "shrimp_scampi.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 23,
+      "title": "Filet Mignon",
+      "price": 31.99,
+      "description": "Tender filet mignon cooked to your liking, accompanied by roasted potatoes.",
+      "image": "filet_mignon.jpg",
+      "type": "Dinner"
+    },
+    {
+      "id": 24,
+      "title": "Vegetable Lasagna",
+      "price": 16.99,
+      "description": "Layers of pasta, ricotta cheese, and assorted vegetables, baked with marinara sauce.",
+      "image": "vegetable_lasagna.jpg",
+      "type": "Dinner"
+    },
+    {
+      "title": "PESTO",
+      "price": 12.3,
+      "description": "NICE FOOD",
+      "image": "menu-2.jpg",
+      "type": "Dinner",
+      "id": 25
+    },
+    {
+      "title": "TTTTT",
+      "price": 333,
+      "description": "YYYY",
+      "image": "mark.png",
+      "type": "Breakfast",
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "id": 30
+    },
+    {
+      "title": "dd",
+      "price": 12,
+      "description": "sssssssss",
+      "image": "img2.png",
+      "type": "Breakfast",
+      "id": 31
+    },
+    {
+      "id": 32
+    },
+    {
+      "title": "dd",
+      "price": 4,
+      "description": "dddddddddd",
+      "image": "C:\\fakepath\\logo-y-ai.png",
+      "type": "Lunch",
+      "id": 33
+    },
+    {
+      "id": 34
+    },
+    {
+      "title": null,
+      "price": null,
+      "description": null,
+      "image": null,
+      "type": null,
+      "id": 36
+    },
+    {
+      "title": "xxxxxxxxxx",
+      "price": 11111,
+      "description": "22222222222",
+      "image": "download.jpg",
+      "type": "Lunch",
+      "id": 37
+    }
+  ],
+  "users": [
+    {
+      "name": "Eman salim",
+      "password": "123456789",
+      "email": "Eman@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "ashish",
+      "email": "ashish@gmail.com",
+      "password": "123456789",
+      "id": 2
+    },
+    {
+      "name": "amal",
+      "email": "amal@gmail.com",
+      "password": "kajsfkahk",
+      "id": 3
+    }
+  ]
+}

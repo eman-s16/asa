@@ -12,7 +12,10 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
+          
+
           "options": {
+            
             "outputPath": "dist/restaurant-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -21,14 +24,23 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+              
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+            "styles": [ 
+              
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "node_modules/sweetalert2/src/sweetalert2.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery-3.4.1.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/js/main.js"
+            ]
           },
+          
           "configurations": {
             "production": {
               "budgets": [
@@ -94,5 +106,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

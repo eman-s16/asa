@@ -1,0 +1,22 @@
+/*** Footer ***/
+
+
+.footer .copyright {
+    
+    font-size: 15px;
+   
+}
+
+.footer .copyright a {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
